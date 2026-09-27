@@ -2,6 +2,7 @@
 
 Результат на тесте: **1 − Brier = 0.9734**.
 
+Ноутбук с ходом решения: [открыть в Colab](https://colab.research.google.com/github/yoshilostindata/Avito_Test_Potapov_Ivan/blob/main/solution.ipynb) · [посмотреть в nbviewer](https://nbviewer.org/github/yoshilostindata/Avito_Test_Potapov_Ivan/blob/main/solution.ipynb) 
 ## Как я решал задачу
 
 Нужно определить, перевёрнут ли текст на кропе, и выдать вероятность этого. Метрика — Brier Score, поэтому важна не только правильность, но и честная уверенность: уверенная ошибка стоит почти 1, ответ 0.5 — всего 0.25.
